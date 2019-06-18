@@ -1,0 +1,43 @@
+#title {
+  text-align: center;
+  margin: 15% 0 3% 0;
+  padding: 30px 0 0 0;
+}
+
+.message {
+  text-align: center;
+}
+
+body {
+  text-align: center;
+  background-size: cover;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, .7); 
+  max-width: 500px;
+  padding: 0 0 15px 0; 
+  border-radius: 10%;
+}
+
+p {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#temp-button {
+  display:inline-block;
+}
+
+#degrees {
+  display: inline-block;
+  margin: 0 2% 0 0;
+}
+
+#toggle {
+  margin: 2% 0 2% 0;
+}
+
+.message4 {
+  margin: 2% 0 2% 0;
+}
