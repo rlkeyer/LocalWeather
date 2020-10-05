@@ -7,10 +7,7 @@ $(document).ready(function () {
     var lat = json.latitude;
     var lon = json.longitude;
     var weatherAPI =
-      "http://api.weatherstack.com/current?access_key=6b143e85be2d037617c6de9cb74f9e07&query=" +
-      lat +
-      "," +
-      lon;
+      `http://api.weatherstack.com/current?access_key=6b143e85be2d037617c6de9cb74f9e07&query=${lat},${lon}`;
 
     $.getJSON(weatherAPI, function (data) {
       $(".message").html(`${data.location.name}, ${data.location.region}`);
